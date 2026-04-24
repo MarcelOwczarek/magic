@@ -13,7 +13,7 @@ session.headers.update({
 airports = ["WAW","WMI","KRK","LCJ","KTW","POZ"]
 
 start = datetime.today()
-end = datetime(start.year, 6, 30)
+end = datetime(start.year, 8, 31)
 
 def build_link(o, d, date):
     return f"https://www.ryanair.com/pl/pl/trip/flights/select?adults=1&dateOut={date}&originIata={o}&destinationIata={d}&isReturn=false"
