@@ -2,7 +2,8 @@ name: Magic
 
 on:
   schedule:
-    - cron: '0 5,9,13 * * *'
+    # 4:00 i 14:00 UTC to ok. 6:00 i 16:00 w Polsce
+    - cron: '0 4,14 * * *'
   workflow_dispatch:
 
 jobs:
