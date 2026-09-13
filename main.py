@@ -10,10 +10,10 @@ session.headers.update({
     "Accept-Language": "pl-PL,pl;q=0.9,en;q=0.8"
 })
 
-airports = ["WAW","WMI","KRK","LCJ","KTW","POZ"]
+airports = ["WAW","WMI","KRK","LCJ","KTW"]
 
 start = datetime.today()
-end = datetime(2027, 2, 28)
+end = datetime(2027, 4, 30)
 
 def build_link(o, d, date):
     return f"https://www.ryanair.com/pl/pl/trip/flights/select?adults=1&dateOut={date}&originIata={o}&destinationIata={d}&isReturn=false"
