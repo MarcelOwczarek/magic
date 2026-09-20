@@ -10,7 +10,7 @@ session.headers.update({
     "Accept-Language": "pl-PL,pl;q=0.9,en;q=0.8"
 })
 
-airports = ["WAW","WMI","KRK","LCJ","KTW"]
+airports = ["WAW","WMI","KRK","LCJ","KTW","WRO"]
 
 start = datetime.today()
 end = datetime(2027, 4, 30)
